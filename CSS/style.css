@@ -16,15 +16,7 @@
 	background: #f5fcff;
 }
 
-.background_under_top {
-	margin-top: 50px;
-	background: url('../image/cloud.png');
-	height: 200px;	
-	width: 100%;
-	background-size: contain;
-}
-
-.background_top {
+.background_under_top{
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -32,8 +24,16 @@
 	background: no-repeat url(../image/sun.png);
 	height: 256px;
 	width: 256px;
-	
 }
+
+.background_top {
+	margin-top: 50px;
+	background: url('../image/cloud.png');
+	height: 200px;	
+	width: 100%;
+	background-size: contain;
+}
+
 
 .background_star_wars {
 	background: center no-repeat url(../image/star.png);
@@ -58,14 +58,12 @@
 }
 
 .background_middle_up {
-	
 	background: center no-repeat url(../image/58_1500.png);
 	height: 400px;
 	width: 100%;
 	bottom: 155px;
-position: absolute;
-background-size: contain;
-	
+	position: absolute;
+	background-size: contain;
 }
 
 
