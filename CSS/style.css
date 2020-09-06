@@ -21,14 +21,14 @@
 	top: 0;
 	right: 0;
 	z-index: -1;
-	background: no-repeat url(../image/sun.png);
+	background: no-repeat url(../img/sun.png);
 	height: 256px;
 	width: 256px;
 }
 
 .background_top {
 	margin-top: 50px;
-	background: url('../image/cloud.png');
+	background: url('../img/cloud.png');
 	height: 200px;	
 	width: 100%;
 	background-size: contain;
@@ -36,7 +36,7 @@
 
 
 .background_star_wars {
-	background: center no-repeat url(../image/star.png);
+	background: center no-repeat url(../img/star.png);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -48,7 +48,7 @@
 
 
 .background_middle {
-	background:  center no-repeat url(../image/deer.png);
+	background:  center no-repeat url(../img/deer.png);
 	height: 500px;
 	width: 100%;
 	position: absolute;
@@ -58,7 +58,7 @@
 }
 
 .background_middle_up {
-	background: center no-repeat url(../image/58_1500.png);
+	background: center no-repeat url(../img/58_1500.png);
 	height: 400px;
 	width: 100%;
 	bottom: 155px;
@@ -73,7 +73,7 @@
 	left: 0;
 	height: 150px;
 	width: 100%;
-	background: bottom repeat-x url(../image/grass.png);
+	background: bottom repeat-x url(../img/grass.png);
 	background-size: contain;
 
 }
