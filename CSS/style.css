@@ -11,13 +11,13 @@
 .magic_style {
 	margin: 0;
 	height: 100vh;
-	background: #f5fcff;
 	background: url(../img/grass.png) bottom / auto 150px repeat-x, 
 	url(../img/58_1500.png) center bottom 155px / 400px 400px no-repeat,
 	url(../img/deer.png) center bottom/ auto 500px no-repeat, 
 	url(../img/cloud.png) top 50px left/ auto 200px repeat-x,
 	url(../img/star.png) top / auto 300px no-repeat,
-	url(../img/sun.png) top right / auto auto no-repeat;
+	url(../img/sun.png) top right / auto auto no-repeat, 
+	#f5fcff;
 }
 
 
