@@ -8,74 +8,16 @@
 	box-sizing: border-box;
 }
 
-
-
 .magic_style {
 	margin: 0;
 	height: 100vh;
 	background: #f5fcff;
-}
-
-.background_under_top{
-	position: absolute;
-	top: 0;
-	right: 0;
-	z-index: -1;
-	background: no-repeat url(../img/sun.png);
-	height: 256px;
-	width: 256px;
-}
-
-.background_top {
-	margin-top: 50px;
-	background: url('../img/cloud.png');
-	height: 200px;	
-	width: 100%;
-	background-size: contain;
-}
-
-
-.background_star_wars {
-	background: center no-repeat url(../img/star.png);
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 300px;
-	width: 100%;
-	background-size: contain;
-	z-index: -1;
-}
-
-
-.background_middle {
-	background:  center no-repeat url(../img/deer.png);
-	height: 500px;
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-	background-size: contain;
-
-}
-
-.background_middle_up {
-	background: center no-repeat url(../img/58_1500.png);
-	height: 400px;
-	width: 100%;
-	bottom: 155px;
-	position: absolute;
-	background-size: contain;
-}
-
-
-.background_bottom {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	height: 150px;
-	width: 100%;
-	background: bottom repeat-x url(../img/grass.png);
-	background-size: contain;
-
+	background: url(../img/grass.png) bottom / auto 150px repeat-x, 
+	url(../img/58_1500.png) center bottom 155px / 400px 400px no-repeat,
+	url(../img/deer.png) center bottom/ auto 500px no-repeat, 
+	url(../img/cloud.png) top 50px left/ auto 200px repeat-x,
+	url(../img/star.png) top / auto 300px no-repeat,
+	url(../img/sun.png) top right / auto auto no-repeat;
 }
 
 
